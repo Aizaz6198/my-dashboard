@@ -1,0 +1,32 @@
+.dashboard {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+  flex-grow: 1;
+  border-radius: 5px;
+}
+
+.featureBox {
+  background-color: #eee;
+  padding: 20px;
+  text-align: left;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.featureBox h3 {
+  margin-bottom: auto;
+}
+
+.button {
+  padding: 10px;
+  background-color: #0070f3;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+}

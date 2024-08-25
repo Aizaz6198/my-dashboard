@@ -1,0 +1,16 @@
+.searchCategory {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+  
+  .searchBar,
+  .categories {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    box-sizing: border-box;
+    font-size: 1rem;
+    border-radius: 10px;
+  }

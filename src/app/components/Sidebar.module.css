@@ -1,0 +1,70 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+  background-color: #f0f0f0;
+  padding: 10px;
+  margin: 10px;
+  border: grey solid 1px;
+  border-radius: 5px;
+}
+
+.heading {
+  font-size: 30px;
+  text-align: center;
+  margin: 15px;
+}
+
+.option {
+  display: block;
+  height: 50px;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: #ccc;
+  border: none;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.progressBar {
+  margin-top: auto;
+  background-color: #bbb;
+  padding: 10px;
+  height: 200px;
+  text-align: center;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    width: 25%;
+    margin: 10px;
+  }
+
+  .option {
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .sidebar {
+    width: 25%;
+    margin: 0;
+    padding: 5px;
+    border-radius: 0;
+  }
+
+  .option {
+    height: 50px;
+    font-size: 1.2rem;
+  }
+
+  .progressBar {
+    height: 150px;
+  }
+}
